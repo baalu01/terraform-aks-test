@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "sa_rg" {
-  name     = "RG-${var.stack}${var.location}-${var.envname}"
+  name     = "RG-${var.stack}-${var.location}-${var.envname}"
   location = var.location
   }
 

@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "RG-storageaccountsouthindia-dev"
+    resource_group_name  = "RG-storageaccount-southindia-dev"
     storage_account_name = "bluboiistorage"
     container_name       = "tfstate"
     key                  = "storage/terraform.tfstate"

@@ -1,0 +1,3 @@
+envname = "dev"
+
+stack   = "storageaccount"

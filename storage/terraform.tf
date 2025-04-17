@@ -10,7 +10,7 @@ terraform {
     resource_group_name  = "RG-storageaccountsouthindia-dev"
     storage_account_name = "bluboiistorage"
     container_name       = "tfstate"
-    key                  = "terraform.tfstate"
+    key                  = "storage/terraform.tfstate"
   }
 }
 
